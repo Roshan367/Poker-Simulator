@@ -1,7 +1,5 @@
 module HaskellGradingAssignment where
 
-    -- No generative AI tools were used in the preparation of the solution to this work.
-
     -- Imports
     import System.Random 
     import Data.List
@@ -976,5 +974,6 @@ module HaskellGradingAssignment where
 
         (gs, newGen) <- gameLoop gameState gen 0
         print(players gs)
+
 
         
